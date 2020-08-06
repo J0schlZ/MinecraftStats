@@ -637,7 +637,7 @@ loader.addRequest("data/summary.json.gz", function(summary) {
     mcstats.hof = summary.hof;
     serverName = JSON.parse('"' + mcstats.info.serverName + '"');
     serverNameNoFmt = mcstats.removeColorCodes(serverName).replace("<br>", " / ");
-    document.title = `${serverNameNoFmt} – Stats`;
+    //document.title = `${serverNameNoFmt} – Stats`;
     document.getElementById("server-name").innerHTML = mcstats.formatColorCode(serverName);
     document.getElementById("update-time").textContent = formatTime(mcstats.info.updateTime);
     var serverIcon = document.getElementById("server-icon");
