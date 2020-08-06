@@ -114,7 +114,7 @@ min_playtime = args.min_playtime
 profile_update_interval = 86400 * args.profile_update_interval
 
 # paths
-mcWorldDir = args.server + '/' + args.world;
+mcWorldDir = args.server + '/worlds/' + args.world;
 mcStatsDir = mcWorldDir + '/stats'
 mcAdvancementsDir = mcWorldDir + '/advancements'
 
